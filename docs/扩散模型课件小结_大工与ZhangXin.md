@@ -4,10 +4,11 @@
 >
 > | 课件 | 作者 | 来源 |
 > |---|---|---|
-> | 《DDPM 原理》（大连理工大学课程讲义，10 页） | 大连理工大学（具体作者待补充） | 待补充 |
+> | 《DDPM 原理》（Diffusion model 学习笔记，10 页） | 小红书用户（昵称含 😈，身份待补充） | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
 > | 《Diffusion Model: Denoising Diffusion Probabilistic Models》（18 页） | 张鑫（bilibili UP 主「吃花椒的麦」） | [BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb)（2024-07-01） |
 >
 > **范围**：上述两份课件的逐页研读笔记。
+> 注：第一份讲义在本文中仍沿用「大工」这一简称（历史命名），其实际原始出处见上表。
 > **说明**：两份课件的公式**全部是图片**，纯文本提取几乎得不到内容（大工 20 字符/页，ZhangXin 259 字符/页）。本文的公式与推导是我**逐页看图后重建**的，并已与 DDPM 原论文核对。
 > 格式：公式使用 `$$ ... $$`，Typora 可直接渲染。
 
