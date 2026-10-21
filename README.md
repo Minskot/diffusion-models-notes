@@ -20,6 +20,7 @@
 |---|---|
 | [`docs/`](docs/) | **6 份学习文档** —— 学习指南、背诵卡、课件推导、作业实现、答辩 Q&A、知识索引 |
 | [`slides/`](slides/) | **22 页学术汇报** PPTX + PDF（公式为真 LaTeX 排版） |
+| [`references/`](references/) | **参考课件**（第三方材料，版权归原作者，见该目录声明） |
 | [`figures/`](figures/) | 概念示意图、实验结果图、PPT 预览 |
 | [`code/`](code/) | 汇报 PPT 的构建链、实验结果生成脚本、推导核验脚本 |
 
@@ -155,6 +156,7 @@ python code/deck-build/build_deck.py
 .
 ├── docs/                     # 6 份学习文档 + VAE/UNet 速览
 ├── slides/                   # 22 页汇报 PPTX + PDF
+├── references/               # 第三方参考课件（版权归原作者）
 ├── figures/
 │   ├── concepts/             # 概念重建实验配图
 │   ├── results/              # 实验结果图 + 数值验证
@@ -175,10 +177,13 @@ python code/deck-build/build_deck.py
 
 | 排除内容 | 原因 |
 |---|---|
-| 课程课件 PDF（CS231n L14、大工、ZhangXin） | 第三方版权，请从课程官方渠道获取 |
+| Stanford CS231n L14 课件 PDF | 第三方版权，请从课程官方渠道获取 |
 | CS231n Assignment 3 的代码骨架 | 课程作业版权与学术诚信 |
 | 数据集与预训练权重（约 170 MB） | 体积过大，由课程脚本自动下载 |
 | PPT 的历史备份文件 | 与本仓库目的无关 |
+
+> ⚠️ [`references/`](references/) 中的两份课件是**第三方材料**，版权归原作者所有，
+> 此处仅作个人学习参考。若权利人要求移除，请提 issue，我会立即删除。
 
 > 📌 `code/demo/` 下的脚本依赖课程提供的 `cs231n/` 代码骨架与预训练权重，
 > 需自行从作业包获取后才能运行。
@@ -190,6 +195,7 @@ python code/deck-build/build_deck.py
 - 论文：**Ho, Jain & Abbeel, _Denoising Diffusion Probabilistic Models_, NeurIPS 2020**
 - 课程：Stanford **CS231n** Spring 2026 Lecture 14 + Assignment 3
 - 参考：大工《Diffusion model (一) DDPM 原理》、ZhangXin《Diffusion Model》教程
+  （原件见 [`references/`](references/)，版权归原作者）
 - 分类图引自 Goodfellow, _Tutorial on Generative Adversarial Networks_, 2017
 
 ---
