@@ -20,7 +20,7 @@
 |---|---|
 | [`docs/`](docs/) | **7 份学习文档** —— 学习指南、背诵卡、课件推导、作业实现、答辩 Q&A、知识整合、摸底测验（另附 VAE/UNet 速览 PDF） |
 | [`slides/`](slides/) | **22 页学术汇报** PPTX + PDF（公式为真 LaTeX 排版） |
-| [`references/`](references/) | **3 份参考课件**（第三方材料，含完整引用信息，见该目录） |
+| [`references/`](references/) | **6 份参考课件**（第三方材料，含完整引用信息，见该目录） |
 | [`figures/`](figures/) | 概念示意图、实验结果图、PPT 预览 |
 | [`code/`](code/) | 汇报 PPT 的构建链、实验结果生成脚本、推导核验脚本 |
 
@@ -202,9 +202,14 @@ python code/deck-build/build_deck.py
 
 | 材料 | 作者 | 来源 |
 |---|---|---|
-| CS231n Lecture 14: Generative Models (Part 2) — Diffusion | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang (Stanford) | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
+| CS231n Lecture 14: Generative Models (Part 2) — Diffusion（122 页） | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang (Stanford) | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
+| CS231n Lecture 13: Generative Models (Part 1) — VAE / GAN（116 页） | 同上 | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
+| CS231n Lecture 11: Generative Models（130 页，2020 版） | Li Fei-Fei, Ranjay Krishna, Danfei Xu (Stanford) | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
+| 《CS231n：从线性分类器到扩散模型》§10 节选（2 页） | Lin，2026-02-01 | 节选，**全文未分发** |
 | 【大白话01】一文理清 Diffusion Model（原理图解+公式推导） | 张鑫（bilibili UP 主「吃花椒的麦」），2024-07-01 | [BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb) |
 | DDPM 原理（Diffusion model 学习笔记） | 小红书用户 **😈**（小红书号 740869460，IP 辽宁） | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
+
+> 逐份的作者、日期、核实状态与版权声明见 [`references/README.md`](references/README.md)。
 
 **其他**
 

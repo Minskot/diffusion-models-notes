@@ -379,10 +379,17 @@ $$
 | 材料 | 作者 / 来源 | 仓库位置 |
 |---|---|---|
 | CS231n Spring 2026 · Lecture 14: Generative Models (Part 2) — Diffusion（122 页） | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang（Stanford） | [`references/`](../references/) |
+| CS231n Spring 2026 · Lecture 13: Generative Models (Part 1) — VAE / GAN（116 页） | 同上（2026-05-14） | [`references/`](../references/) |
+| CS231n · Lecture 11: Generative Models（130 页，2020 版） | Li Fei-Fei, Ranjay Krishna, Danfei Xu（2020-05-14） | [`references/`](../references/) |
+| 《CS231n：从线性分类器到扩散模型》**§10 节选**（2 页） | Lin（2026-02-01）；原文档 27 页，**全文未分发** | [`references/`](../references/) |
 | 《Diffusion Model: Denoising Diffusion Probabilistic Models》（18 页） | 张鑫（bilibili UP 主「吃花椒的麦」，[BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb)，2024-07-01） | [`references/`](../references/) |
 | 《Diffusion model 学习笔记》DDPM 原理（10 页） | 小红书用户 😈（小红书号 740869460，IP 辽宁） | [`references/`](../references/) |
 
-> 三份材料的作者、日期、来源链接与版权声明，详见
+> 逐份的作者、日期、来源链接、核实状态与版权声明，详见
 > [`references/README.md`](../references/README.md)。
+>
+> ⚠️ **注意版本差异**：2020 版的 `cs231n\slides\lecture_14.pdf` **不是**扩散模型那一讲
+> （该讲为 AI 公平性/偏见，Timnit Gebru & Emily Denton）；扩散内容**只在 2026 版 L14** 中。
+> 旧版仅 L11（生成模型总论）与扩散相关。
 
 **核验建议**：若需确认 `cs231n_lszy.pdf` 的权威性，可直接打开原文对照第 26-27 页；该笔记自称完成了三个 Assignment，但**与官方 2020 版 assignment3 的题目清单不符**（官方无 DDPM），推测对应的是更新版本的作业或作者自行扩展内容。**在考试情境下，应以 CV 课程 L11 的 Reading List 为准，而非这份笔记的详略程度。**
