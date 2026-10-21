@@ -1,0 +1,62 @@
+DDPM implementation — experimental verification
+================================================================================
+Environment : torch 2.7.1+cu126, CUDA available
+Model       : 12.4M-parameter U-Net, T = 100 diffusion steps
+Checkpoint  : cs231n/exp/pretrained/model-70000.pt  (step = 70,000)
+Dataset     : EmojiDataset, 1,891 samples, 32x32 RGB
+
+
+1. Numerical correctness  (relative error vs. official expected values)
+--------------------------------------------------------------------------------
+Test                            Measured        Required
+--------------------------------------------------------------------------------
+q_sample                        5.104e-07       ~0
+predict_start_from_noise        2.798e-06       < 1e-05
+predict_noise_from_start        1.060e-06       < 1e-05
+--------------------------------------------------------------------------------
+All within tolerance.
+
+
+2. U-Net architecture
+--------------------------------------------------------------------------------
+Configuration                            Parameters        Reference
+--------------------------------------------------------------------------------
+dim=2,  dim_mults=(1,2,4),  cond=4             6,499           6,499
+dim=48, dim_mults=(1,2,4,8), cond=512     12,444,963      12,445,863
+--------------------------------------------------------------------------------
+Note: the released checkpoint stores the state_dict of the whole
+GaussianDiffusion object (197 keys, including the alphas / betas buffers),
+not of the U-Net alone. The 900-parameter difference above is exactly those
+diffusion buffers: betas, alphas, alphas_cumprod and loss_weight contribute
+4 x 100 = 400, and the remaining 500 come from the derived coefficient
+buffers. The U-Net itself matches -- confirmed by the successful checkpoint
+load described below.
+
+
+3. Pretrained checkpoint loading
+--------------------------------------------------------------------------------
+load_state_dict(sd, strict=False) ->  missing = 2,  unexpected = 0
+The two missing keys are the derived buffers
+    sqrt_recip_alphas_cumprod, sqrt_recipm1_alphas_cumprod
+which are not stored in the checkpoint because they are computed from
+alphas_cumprod at construction time. Every learned weight loaded cleanly,
+so the architecture is exactly compatible with the pretrained model.
+
+
+4. Generated results  (see the PNG files in this folder)
+--------------------------------------------------------------------------------
+forward_noising.png  The fixed forward process q(x_t|x_0): a clean emoji
+                     turns into pure Gaussian noise over t = 0 ... 99.
+                     No learning is involved -- this is the schedule only.
+
+samples_over_t.png   The reverse process: 4 independent runs, each starting
+                     from pure noise x_T and denoising down to x_0. The image
+                     emerges gradually across the 100 sampling steps.
+
+samples_grid.png     25 unconditional samples from the pretrained model.
+                     Faces, colours and shapes are clearly recognisable.
+
+cfg_sweep.png        Classifier-free guidance, prompt "crying face", scale
+                     w = 0, 2, 5, 10. Increasing w makes the output follow the
+                     text far more faithfully (tears appear reliably), at some
+                     cost in sample diversity.

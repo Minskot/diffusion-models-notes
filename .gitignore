@@ -1,0 +1,34 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+_latex_work/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Office temp / backups ----
+~$*
+*_backup_*.pptx
+*副本*.pptx
+
+# ---- Large data (obtained from the course) ----
+datasets/
+*.npz
+*.pt
+*.pth
+*.ckpt
