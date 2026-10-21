@@ -1,0 +1,10 @@
+# Normalise line endings so the repo is consistent across platforms
+* text=auto eol=lf
+
+# Binary / generated assets
+*.png binary
+*.jpg binary
+*.pdf binary
+*.pptx binary
+*.xlsx binary
+*.zip binary
