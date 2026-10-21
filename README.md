@@ -204,7 +204,7 @@ python code/deck-build/build_deck.py
 |---|---|---|
 | CS231n Lecture 14: Generative Models (Part 2) — Diffusion | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang (Stanford) | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
 | 【大白话01】一文理清 Diffusion Model（原理图解+公式推导） | 张鑫（bilibili UP 主「吃花椒的麦」），2024-07-01 | [BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb) |
-| DDPM 原理（Diffusion model 学习笔记） | 小红书用户（昵称含 😈，身份待补充） | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
+| DDPM 原理（Diffusion model 学习笔记） | 小红书用户 **😈**（小红书号 740869460，IP 辽宁） | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
 
 **其他**
 

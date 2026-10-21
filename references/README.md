@@ -9,10 +9,10 @@
 |---|---|---|---|---|
 | `lecture_14_Generative_Models_2_Diffusion.pdf` | CS231n Lecture 14: Generative Models (Part 2) — Diffusion | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang（Stanford University） | 2026-05-19 | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
 | `DDPM_tutorial_by_ZhangXin.pdf` | 【大白话01】一文理清 Diffusion Model 扩散模型 \| 原理图解+公式推导 | 张鑫（bilibili UP 主「吃花椒的麦」） | 2024-07-01 | [BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb) |
-| `大连理工大学-DDPM.pdf` | Diffusion model 学习笔记（DDPM 原理，课程讲义） | 小红书用户（昵称含 😈，身份待补充） | 待补充 | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
+| `大连理工大学-DDPM.pdf` | Diffusion model 学习笔记（DDPM 原理，课程讲义） | 小红书用户 **😈**（小红书号 740869460，IP 辽宁） | 待补充 | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
 
 > 📌 **三份材料的来源均已标注**，其中「大工」一份的原始出处为小红书笔记
-> （该页面需登录访问，正文未能核实，引用信息依据使用者说明记录）。
+> （该页面需登录访问，正文未能核实；出处依据使用者说明记录）。
 > 若发现任何标注有误，欢迎提 issue 指正。
 
 ---
@@ -50,15 +50,16 @@
 
 - **来源**：小红书笔记《Diffusion model 学习笔记》
   <https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7>
-- ⚠️ **核实状态**：该页面需登录才能访问，**正文与作者身份未能独立核实**；
-  出处依据使用者说明记录，引用时请自行确认。
+- **作者**：小红书用户 **😈**（小红书号 **740869460**，IP 属地 **辽宁**）
+- ⚠️ **核实状态**：笔记正文需登录才能访问，**未能独立核实**；
+  作者身份据其主页截图记录，出处依据使用者说明。
 - **内容**：DDPM 的数学推导（后验均值"配方"路线）
 - **特点**：纯图片页，无可提取文本，PDF 元数据为空
-- **作者**：小红书用户（分享标题显示昵称含 😈），具体身份待补充
+- **旁证**：作者 IP 属地为**辽宁**，与"大连理工大学"（辽宁大连）这一课程来源相吻合
 - **说明**：本仓库作者的[推导笔记](../docs/扩散模型课件小结_大工与ZhangXin.md)
   **修正了该讲义 §3.4 中的一处符号错误**（`+` 应为 `−`，已数值验证）
 - **引用格式**：
-  > 《Diffusion model 学习笔记》[图文]. 小红书.
+  > 😈. 《Diffusion model 学习笔记》[图文]. 小红书.
   > https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7
 
 ---

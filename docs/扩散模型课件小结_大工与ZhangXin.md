@@ -4,7 +4,7 @@
 >
 > | 课件 | 作者 | 来源 |
 > |---|---|---|
-> | 《DDPM 原理》（Diffusion model 学习笔记，10 页） | 小红书用户（昵称含 😈，身份待补充） | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
+> | 《DDPM 原理》（Diffusion model 学习笔记，10 页） | 小红书用户 **😈**（小红书号 740869460，IP 辽宁） | [小红书笔记](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7) |
 > | 《Diffusion Model: Denoising Diffusion Probabilistic Models》（18 页） | 张鑫（bilibili UP 主「吃花椒的麦」） | [BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb)（2024-07-01） |
 >
 > **范围**：上述两份课件的逐页研读笔记。
@@ -16,10 +16,10 @@
 
 ## 1. 两份课件对照
 
-| | **大工《Diffusion model (一) DDPM 原理》** | **ZhangXin《Diffusion Model》** |
+| | **大工《Diffusion model 学习笔记》** | **ZhangXin《Diffusion Model》** |
 |---|---|---|
 | 页数 | 10 页 | 18 页 |
-| 日期 / 性质 | 2025 年 9 月，标注"个人学习使用" | 个人教程，有 B 站配套视频 |
+| 日期 / 性质 | 个人学习笔记（来源：[小红书](https://www.xiaohongshu.com/discovery/item/68d69ee1000000001400b0e7)） | 个人教程，有 B 站配套视频（[BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb)） |
 | 视角 | **推导驱动**：一步步算 | **教学驱动**：先直觉后数学 |
 | 主线 | 只讲**前向闭式解 + 反向后验**的完整推导 | 五步流程 ①forward ②optimization ③reverse ④training ⑤sampling |
 | 独特内容 | 用**递归代入 + 配方**手工推导后验均值和方差 | **ELBO 展开**、**KL 散度训练目标**、**方差选择方案对比** |

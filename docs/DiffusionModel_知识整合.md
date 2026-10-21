@@ -5,6 +5,14 @@
 > 检索范围：`_text\`（ML 全部 19 份 PDF 提取）、`_text_cv\`（CV 11 讲讲义 + Tutorial）、`_text_cs231n\`（cs231n 24 份 slides + 一份中文笔记）、`cs231n\assignments\`、原始 PDF 文件名。
 > 检索词：`diffusion`、`DDPM`、`DDIM`、`denoising/de-noising`、`score matching`、`noise schedule`、`stable diffusion`、`latent diffusion`、`reparameterization`。
 
+> ⚠️ **后续更新（2026-10）**：本文检索的是**较早的 cs231n 资料包（2017–2020 版）**，
+> 当时包内确实没有扩散模型（见第 1、4 节结论）。此后工作区补充了
+> **Stanford CS231n Spring 2026 · Lecture 14: Generative Models (Part 2) — Diffusion**
+> （122 页，2026-05-19），扩散模型已成为该课程的**正课内容**。
+>
+> 因此「cs231n 官方课件没有扩散模型」这一结论 **仅适用于旧资料包**，请勿据此判断当前课程范围。
+> 当前实际收录的参考资料见仓库 [`references/`](../references/)（含 3 份课件与完整引用信息）。
+
 ---
 
 ## 1. 结论先说：全工作区只有 3 处提及，且只有 1 处是实质内容
@@ -361,5 +369,16 @@ $$
 | `_text_cs231n\cs231n_lszy.txt` | 上述笔记的纯文本提取（第 808-855 行为第 10 节） |
 | `CV讲义精读.md` | 本工作区的 CV 讲义总览（L11 Reading List 已记录） |
 | `讲义索引与考点对照.md` | ML 讲义与考点对照 |
+
+### 8.1 当前仓库内的第三方参考资料（原资料包之外的补充）
+
+| 材料 | 作者 / 来源 | 仓库位置 |
+|---|---|---|
+| CS231n Spring 2026 · Lecture 14: Generative Models (Part 2) — Diffusion（122 页） | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang（Stanford） | [`references/`](../references/) |
+| 《Diffusion Model: Denoising Diffusion Probabilistic Models》（18 页） | 张鑫（bilibili UP 主「吃花椒的麦」，[BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb)，2024-07-01） | [`references/`](../references/) |
+| 《Diffusion model 学习笔记》DDPM 原理（10 页） | 小红书用户 😈（小红书号 740869460，IP 辽宁） | [`references/`](../references/) |
+
+> 三份材料的作者、日期、来源链接与版权声明，详见
+> [`references/README.md`](../references/README.md)。
 
 **核验建议**：若需确认 `cs231n_lszy.pdf` 的权威性，可直接打开原文对照第 26-27 页；该笔记自称完成了三个 Assignment，但**与官方 2020 版 assignment3 的题目清单不符**（官方无 DDPM），推测对应的是更新版本的作业或作者自行扩展内容。**在考试情境下，应以 CV 课程 L11 的 Reading List 为准，而非这份笔记的详略程度。**
