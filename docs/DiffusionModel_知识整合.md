@@ -3,6 +3,10 @@
 > 任务：在工作区（DSAI4203 ML、COMP 4423 CV、cs231n 资料包）中定位所有与 **Diffusion Model（扩散模型）** 相关的出现位置，并整合知识点与考点。
 >
 > 检索范围：`_text\`（ML 全部 19 份 PDF 提取）、`_text_cv\`（CV 11 讲讲义 + Tutorial）、`_text_cs231n\`（cs231n 24 份 slides + 一份中文笔记）、`cs231n\assignments\`、原始 PDF 文件名。
+>
+> 📁 **路径说明**：本文出现的 `4423 CV\…`、`_text*\…`、`cs231n\…` 等路径，均为
+> **当时检索时的原始位置**（位于本仓库之外），仅作溯源记录，**在本仓库中不可点击**。
+> 本仓库的目录结构与文件索引见根目录 [`README.md`](../README.md)。
 > 检索词：`diffusion`、`DDPM`、`DDIM`、`denoising/de-noising`、`score matching`、`noise schedule`、`stable diffusion`、`latent diffusion`、`reparameterization`。
 
 > ⚠️ **后续更新（2026-10）**：本文检索的是**较早的 cs231n 资料包（2017–2020 版）**，

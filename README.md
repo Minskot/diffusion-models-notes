@@ -18,7 +18,7 @@
 
 | 目录 | 内容 |
 |---|---|
-| [`docs/`](docs/) | **6 份学习文档** —— 学习指南、背诵卡、课件推导、作业实现、答辩 Q&A、知识索引 |
+| [`docs/`](docs/) | **7 份学习文档** —— 学习指南、背诵卡、课件推导、作业实现、答辩 Q&A、知识整合、摸底测验（另附 VAE/UNet 速览 PDF） |
 | [`slides/`](slides/) | **22 页学术汇报** PPTX + PDF（公式为真 LaTeX 排版） |
 | [`references/`](references/) | **3 份参考课件**（第三方材料，含完整引用信息，见该目录） |
 | [`figures/`](figures/) | 概念示意图、实验结果图、PPT 预览 |
@@ -154,7 +154,7 @@ python code/deck-build/build_deck.py
 
 ```
 .
-├── docs/                     # 6 份学习文档 + VAE/UNet 速览
+├── docs/                     # 7 份学习文档 + VAE/UNet 速览
 ├── slides/                   # 22 页汇报 PPTX + PDF
 ├── references/               # 第三方参考课件（版权归原作者）
 ├── figures/
