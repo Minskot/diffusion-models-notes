@@ -20,7 +20,7 @@
 |---|---|
 | [`docs/`](docs/) | **6 份学习文档** —— 学习指南、背诵卡、课件推导、作业实现、答辩 Q&A、知识索引 |
 | [`slides/`](slides/) | **22 页学术汇报** PPTX + PDF（公式为真 LaTeX 排版） |
-| [`references/`](references/) | **参考课件**（第三方材料，版权归原作者，见该目录声明） |
+| [`references/`](references/) | **3 份参考课件**（第三方材料，含完整引用信息，见该目录） |
 | [`figures/`](figures/) | 概念示意图、实验结果图、PPT 预览 |
 | [`code/`](code/) | 汇报 PPT 的构建链、实验结果生成脚本、推导核验脚本 |
 
@@ -177,26 +177,40 @@ python code/deck-build/build_deck.py
 
 | 排除内容 | 原因 |
 |---|---|
-| Stanford CS231n L14 课件 PDF | 第三方版权，请从课程官方渠道获取 |
 | CS231n Assignment 3 的代码骨架 | 课程作业版权与学术诚信 |
 | 数据集与预训练权重（约 170 MB） | 体积过大，由课程脚本自动下载 |
 | PPT 的历史备份文件 | 与本仓库目的无关 |
 
-> ⚠️ [`references/`](references/) 中的两份课件是**第三方材料**，版权归原作者所有，
-> 此处仅作个人学习参考。若权利人要求移除，请提 issue，我会立即删除。
+> ⚠️ [`references/`](references/) 中的三份课件均为**第三方材料**，版权归原作者及所属机构所有，
+> 此处仅作个人学习参考，并已逐份标注作者、日期与来源。若权利人要求移除，
+> 请提 issue，我会立即删除。详见 [`references/README.md`](references/README.md)。
 
 > 📌 `code/demo/` 下的脚本依赖课程提供的 `cs231n/` 代码骨架与预训练权重，
 > 需自行从作业包获取后才能运行。
 
 ---
 
-## 致谢
+## 引用与致谢
 
-- 论文：**Ho, Jain & Abbeel, _Denoising Diffusion Probabilistic Models_, NeurIPS 2020**
-- 课程：Stanford **CS231n** Spring 2026 Lecture 14 + Assignment 3
-- 参考：大工《Diffusion model (一) DDPM 原理》、ZhangXin《Diffusion Model》教程
-  （原件见 [`references/`](references/)，版权归原作者）
-- 分类图引自 Goodfellow, _Tutorial on Generative Adversarial Networks_, 2017
+**核心论文**
+
+> Ho, J., Jain, A., & Abbeel, P. (2020). *Denoising Diffusion Probabilistic Models*.
+> Advances in Neural Information Processing Systems (NeurIPS) 33.
+> [arXiv:2006.11239](https://arxiv.org/abs/2006.11239)
+
+**课程与课件**（原件见 [`references/`](references/)，版权归原作者）
+
+| 材料 | 作者 | 来源 |
+|---|---|---|
+| CS231n Lecture 14: Generative Models (Part 2) — Diffusion | Li Fei-Fei, Ehsan Adeli, Zane Durante, Justin Johnson, Serena Xiang (Stanford) | [cs231n.stanford.edu](https://cs231n.stanford.edu/) |
+| 【大白话01】一文理清 Diffusion Model（原理图解+公式推导） | 张鑫（bilibili UP 主「吃花椒的麦」），2024-07-01 | [BV1xih7ecEMb](https://www.bilibili.com/video/BV1xih7ecEMb) |
+| DDPM 原理（课程讲义） | 大连理工大学 | 原始渠道待补充 |
+
+**其他**
+
+- 生成模型分类图引自 Goodfellow, I. (2017). *Tutorial on Generative Adversarial Networks*
+- U-Net 架构引自 Ronneberger, O., Fischer, P., & Brox, T. (2015). *U-Net: Convolutional Networks for Biomedical Image Segmentation*. [arXiv:1505.04597](https://arxiv.org/abs/1505.04597)
+- Classifier-free guidance 引自 Ho, J., & Salimans, T. (2022). *Classifier-Free Diffusion Guidance*. [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)
 
 ---
 
