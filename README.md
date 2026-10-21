@@ -22,7 +22,7 @@
 | [`slides/`](slides/) | **22 页学术汇报** PPTX + PDF（公式为真 LaTeX 排版） |
 | [`references/`](references/) | **6 份参考课件**（第三方材料，含完整引用信息，见该目录） |
 | [`figures/`](figures/) | 概念示意图、实验结果图、PPT 预览 |
-| [`code/`](code/) | 汇报 PPT 的构建链、实验结果生成脚本、推导核验脚本 |
+| [`code/`](code/) | 汇报 PPT 的构建链、实验结果生成脚本、推导核验脚本、文档处理工具 |
 
 ### 推荐阅读顺序
 
@@ -164,7 +164,8 @@ python code/deck-build/build_deck.py
 └── code/
     ├── deck-build/           # PPT 构建链（LaTeX → PNG → PPTX）
     ├── demo/                 # 实验结果生成与核验
-    └── verification/         # 推导的数值核验脚本
+    ├── verification/         # 推导的数值核验脚本
+    └── tools/                # 文档工具：PDF 节选 / 元数据盘点 / 链接校验
 ```
 
 ---

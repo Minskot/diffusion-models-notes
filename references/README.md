@@ -104,6 +104,9 @@
 | `L1-Lecture-Introduction-v5.1.pdf`（COMP 4423，108 页，作者元数据 `ypei`） | p28–30 两个 Stable Diffusion demo 网址；p37 引用一篇 AAAI 2024 论文 | 15.8 MB，仅 demo 截图 |
 | `cs231n/slides/lecture_14.pdf`（2020 版，47 页） | — | **与扩散无关**：该讲为 AI 公平性/偏见（Timnit Gebru、Emily Denton） |
 
+> 📄 以上三份材料的**相关原文摘录**已存档于
+> [`citation_snippets.md`](citation_snippets.md) —— 引用可查证，但无需分发原件。
+
 > 🔍 **一个容易踩的坑**：2020 版的 `lecture_14.pdf` **不是**扩散模型那一讲 ——
 > 2026 版才有 L14（扩散）。旧版只有 L11（生成模型总论）。引用时别把两者搞混。
 
